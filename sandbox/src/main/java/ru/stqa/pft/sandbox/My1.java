@@ -9,11 +9,12 @@ public class My1 {
 		String something = "World";
     System.out.println("Hello" +", "+ something +"!");
 
-    double a = 2.5;
-    double b = 10;
+    Square s = new Square(5);
+    //s.a = 5;
+    Rectangle r = new Rectangle(3, 4);
 
-    System.out.println("\nПлощадь квадрата со стороной "+ a +" равна "+ area(a) );
-    System.out.println("\nПлощадь прямоугольника со сторонами "+ a +" и "+b+" равна "+ area(a,b) );
+    System.out.println("\nПлощадь квадрата со стороной "+ s.a +" равна "+ s.area() );
+    System.out.println("\nПлощадь прямоугольника со сторонами "+ r.a +" и "+r.b+" равна "+ r.area() );
 
     hello("");
     hello("World1");
@@ -27,11 +28,13 @@ public class My1 {
 
   }
 
-  public static double area (double l){
-    return l*l;
+ /* public static double area (Square s){
+    return s.a*s.a;
   }
+  */
 
-  public static double area(double a, double b){
-    return a*b;
+  /*public static double area(Rectangle r){
+    return r.a*r.b;
   }
+  */
 }
