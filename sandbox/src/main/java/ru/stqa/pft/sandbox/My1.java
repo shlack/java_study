@@ -13,12 +13,16 @@ public class My1 {
     //s.a = 5;
     Rectangle r = new Rectangle(3, 4);
 
+
+
     System.out.println("\nПлощадь квадрата со стороной "+ s.a +" равна "+ s.area() );
     System.out.println("\nПлощадь прямоугольника со сторонами "+ r.a +" и "+r.b+" равна "+ r.area() );
 
-    hello("");
+
+    /*hello("");
     hello("World1");
     hello("Test");
+    */
 
     	}
 	
@@ -37,4 +41,7 @@ public class My1 {
     return r.a*r.b;
   }
   */
+
+
+
 }
